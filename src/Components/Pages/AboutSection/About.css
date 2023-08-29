@@ -1,0 +1,454 @@
+.about-navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background: url(./AboutImages/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-navbar-section .about{
+    text-align: center;
+}
+.about-navbar-section .about h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.about-navbar-section .about h5{
+    font-size: 23px;
+    font-weight: 4000;
+    color: #fff;
+    max-width: 640px;
+}
+.farmer-section{
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.farmer-section .left-side h2{
+    color: #000;
+    max-width: 370px;
+    font-size: 38px;
+}
+.farmer-section .left-side .buttons-section{
+    display: flex;
+    margin-top: 40px;
+    border-bottom: 5px solid #777;
+
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 550px;
+    transition: all .5s ease;
+  
+}
+.farmer-section .left-side .buttons-section button:hover {
+    border-bottom: 5px solid green;
+    padding-top: -10px;
+    z-index: 1;
+}
+.farmer-section .left-side .buttons-section button{
+    border: none;
+    background-color: transparent;
+    color: #555;
+   cursor: pointer;
+    margin-right: 90px;
+    padding-bottom: 6px;
+    z-index: 1;
+}
+
+.farmer-section .left-side .text-content{
+    color: #777;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.farmer-section .left-side .text-content h6{
+    max-width: 400px;
+    font-size: 15px;
+}
+.farmer-section .left-side .text-content p{
+    max-width: 300px;
+    font-size: 14px;
+    margin-left: 0px !important;
+}
+.farmer-section .left-side a{
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.farmer-section .right-side .images-section .image img{
+    cursor: pointer;
+    width: 100%;
+}
+.farmer-section .right-side button{
+    display: none;
+}
+.history-section{
+    padding-top: 80px;
+    background: url(./AboutImages/history.jpg);
+height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.history-section .history h2{
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.history-section .success-section{
+    width: 100%;
+    margin-bottom: 90px;
+    
+}
+
+.history-section .success .slider-section{
+   
+   width: 100%;
+}
+ .slider-section .card{
+ width: 400px !important;
+    cursor: pointer;
+padding-top: 10px;
+    height: 220px;
+  display: flex;
+    margin: 0 auto;
+    margin-left: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,.1);
+    border: none;
+
+}
+.slider-section .card p{
+    color: #555;
+    font-weight: 500;
+   
+    font-size: 14px;
+}
+.bottom-part{
+    height: 80px;
+    background-color: #fff;
+    margin: 20px;
+    margin-top: -110px;
+    margin-bottom: 40px;
+    z-index: 1;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.bottom-part .prev-next{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+.bottom-part .prev-next button{
+    border: none;
+    background-color: transparent;
+    color: #555;
+    text-decoration: underline !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bottom-part .prev-next .next{
+    transition: all .4s ease;
+}
+.bottom-part .prev-next .next:hover{
+    color: #000;
+}
+.team-about-section{
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.team-about-section .about-team h2{
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.team-about-section .teams-section{
+   
+width: 100%;
+margin-top: 50px;
+
+}
+.team-about-section .teams-section .teams{
+    width: 100%;
+   
+}
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+}
+.slider .card{
+  width: 400px !important;
+    display: flex;
+    margin: 0 auto;
+    height: 580px;
+    text-align: center !important;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.slider .card h6{
+   border-bottom: 4px solid #ffff00;
+   width: 170px;
+   margin: 0 auto;
+}
+.slider .card p{
+    max-width: 370px;
+    margin-left: 10px;
+}
+.slider .card img{
+    width: 100%;
+    border-radius: 7px;
+   
+}
+.partner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(./AboutImages/parallax.jpg) no-repeat center;
+    background-size: cover;
+}
+.partner-section .partner .numbers .heading p{
+    color: #fff;
+    font-size: 52px;
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+.partner-section .partner .numbers  h5{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+  margin-left: 20px;
+    width: 500px;
+  
+}
+.partner-section .partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.partner-section .partner .numbers{
+    margin-left: 120px;
+    
+}
+.partner-section .partner .numbers h5{
+    max-width: auto;
+}
+.testimonials-section{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./AboutImages/testimonials.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.testimonials-section .testimonials h2{
+    color: #000;
+    font-size: 52px;
+    font-weight: 500;
+letter-spacing: 2px;
+}
+.testimonials-section .test-image{
+  display: flex;
+  align-items: center;
+ 
+    width: 100%;
+
+}
+.testimonials-section .test-image .image{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.slider-test{
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 100%;
+margin: 0 auto;
+display: flex;
+margin-top: 50px;
+}
+.testimonials-section .test-image .slider-test .card{
+    height: 300px !important;
+    width: 600px !important;
+    margin: 0 auto;
+    display: flex;
+   
+border: 1px solid #555 !important;
+border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    /* margin-left: 30px; */
+    border: none;
+text-align: center;
+    padding-top: 60px;
+   
+}
+.testimonials-section .test-image .images .slider-test .card h3{
+    font-size: 17px;
+    color: #555;
+    max-width: 450px;
+    padding-bottom: 18px;
+}
+.testimonials-section .test-image .images .slider-test .card  .card-image{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 250px;
+    
+}
+.testimonials-section .test-image .images .slider-test .card .card-image img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.testimonials-section .test-image .images .slider-test .card .card-image .info p{
+    color: #76aa6f !important;
+    margin-right: 30px;
+}
+
+.testimonials-section .test-image .images .slider-test .card .card-image .info p{
+    margin-right: 40px;
+    color: #666;
+}
+
+
+@media(max-width:1400px){
+    .partner-section .partner .numbers{
+        padding: 0;
+        margin: 10px;
+    }
+    
+}
+@media(max-width:1220px){
+    .testimonials-section .test-image .images .slider-test .card{
+        width: 100% !important;
+    }
+}
+@media(max-width:1200px){
+    .history-section .success-section .success .card{
+        width: auto;
+    }
+}
+
+@media(max-width:991px){
+    .farmer-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .farmer-section .left-side{
+       width: auto;
+    }
+    .farmer-section .left-side .text-content h6{
+        max-width: 600px;
+    }
+    .farmer-section .right-side{
+        padding-top: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+    .partner-section .partner {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    .partner-section .partner .numbers h5{
+        width: 340px;
+    }
+}
+
+@media(max-width:768px){
+    .history-section .success-section{
+        width: auto !important;
+    }
+    .history-section   .success-section .success {
+        align-content: center;
+        max-width: 500px
+        /* margin-left: 60px !important; */
+        ;
+        margin:  0 auto;
+        padding-left: 5px;
+   
+        align-items: center;
+        place-items: center;
+        justify-content: center;
+ 
+    }
+    .history-section .success-section .success .card p{
+        max-width: 400px;
+    }
+    .team-about-section .teams-section{
+        width: auto;
+    }
+    .team-about-section .teams-section .teams{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+       width: 420px;
+     
+    }
+    .team-about-section .teams-section .teams .slider .card{
+        width: auto;
+    }
+    .partner-section .partner .numbers h5{
+margin-left:  0;
+width: 200px;
+    }
+    .testimonials-section .test-image .images .slider-test .card .card-image .info{
+        margin: 0;
+}
+
+
+@media(max-width:468px){
+    .farmer-section .left-side .text-content{
+        margin-right: 0;
+    }
+    .farmer-section .left-side .buttons-section{
+        width: 100%;
+        display: flex;
+        font-size: 16px;
+      
+    }
+    .farmer-section .left-side .buttons-section button{
+    width: 400px;
+    margin: 0;
+    }
+   
+   
+    }
+}

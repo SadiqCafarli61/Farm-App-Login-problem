@@ -1,0 +1,44 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 50px !important;
+  flex-direction: column;
+border: 1px solid rgb(180, 171, 180);
+width: 400px;
+padding: 10px;
+height: 760px;
+cursor: pointer;
+border-radius: 10px;
+margin:  0 auto;
+}
+.form input{
+    width: 350px;
+    outline: none;
+    border: solid #ccc 2px ;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.login-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+
+.login-section  input{
+ width: 400px;
+ outline: none;
+}
+
+@media(max-width:576px){
+    .signup-section form .input-container{
+        width: 400px;
+    }
+    .signup-section form .input-container input{
+        width: 200px;
+    }
+}

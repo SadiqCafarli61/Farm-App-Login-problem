@@ -1,0 +1,28 @@
+
+[ 
+
+    {
+        "id": 1,
+        "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691586792/fresh1_v4vkmh.webp",
+        "titleImage": "ALWAYS FRESH",
+        "bodyImage": "Thanks to innovative organic technologies, our products are always fresh and don’t need any treatment."
+    },
+{
+    "id": 2,
+    "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691586793/fresh2_uvclo9.jpg",
+    "titleImage": "100% ORGANIC",
+    "bodyImage": "We adhere to our organic philosophy, which implies avoiding pesticides and non-organic fertilizers."
+},
+{
+    "id": 3,
+    "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691586810/fresh3_vtxgbi.jpg",
+    "titleImage": "NO ADDITIVES",
+    "bodyImage": "We avoid any artificial additives after harvesting the crops to offer you the best organic products."
+},
+{
+    "id": 4,
+    "url": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691586797/fresh4_layutc.png",
+    "titleImage": "MODERN FARM",
+    "bodyImage": "Though we rely on traditional organic farming a lot, we also use the latest farming innovations."
+}
+]

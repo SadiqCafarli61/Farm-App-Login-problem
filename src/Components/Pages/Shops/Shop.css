@@ -1,0 +1,217 @@
+.shop-section{
+    background: url(../Shops/shop.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-section .shop h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 52px;
+    word-spacing: 5px;
+}
+
+.filter-section{
+    padding-top: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.filter-section .filter .left-side{
+    /* width: 280px; */
+    width: 300px;
+}
+.filter-section .filter .left-side .content h5{
+    padding-bottom: 15px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #aaa;
+}
+.filter-section .filter .left-side .content input{
+    margin-top: 30px;
+}
+.filter-section .filter .left-side .price{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.filter-section .filter .left-side  .price .btn-primary{
+    background-color: #E9DA5D;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-size: 14px;
+    width: 100px;
+    height: 45px;
+}
+.filter-section .filter .left-side .price .btn-primary:hover{
+    background-color: #76aa6f;
+    color: #fff;
+}
+.filter-section .filter .left-side .content  input[type = range]{
+    accent-color: #76aa6f;
+    width: 160px;
+
+}
+.filter-section .filter .left-side .categories{
+    padding-top: 40px;
+}
+.filter-section .filter .left-side .categories h5{
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #aaa;
+}
+.filter-section .filter .left-side .categories .alls .foods{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+width: 250px;
+padding-top: 20px;
+}
+.filter-section .filter .left-side .categories .alls .inputs input{
+    cursor: pointer;
+}
+.filter-section .filter .left-side .categories .alls .inputs input[type= 'checkbox']{
+    width: 40px;
+}
+.filter-section .filter .left-side .categories .alls .inputs span{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.filter-section .filter .left-side .categories .search{
+    margin-top: 40px;
+    position: relative;
+}
+.filter-section .filter .left-side .categories .search input{
+    width: 270px;
+    border: none;
+    outline: none;
+    background-color: #F9FAF9;
+    height: 55px;
+    padding-left: 15px;
+    color: #444;
+}
+.filter-section .filter .left-side .categories .search .searchBar{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  right: 50px;
+}
+.filter-section .filter .left-side .categories .products{
+    padding-top: 40px;
+}
+.filter-section .filter .left-side .categories .products .imageWords{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  text-align: center;
+}
+.filter-section .filter .left-side .categories .products .imageWords .info p{
+margin-right: 70px;
+color: #76aa6f;
+font-size: 15px;
+}
+.filter-section .filter .right-side{
+    /* width: 730px; */
+    width: 900px;
+}
+.filter-section .filter .right-side .produce{
+    display: flex;
+    align-items: center;
+ 
+}
+
+.filter-section .filter .right-side .produce .produces .card{
+    cursor: pointer;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border: 0;
+    margin-top: 30px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+.filter-section .filter .right-side .produce .produces .card:hover{
+    height: 370px;
+}
+.filter-section .filter .right-side .produce .produces .card .card-body{
+    text-align: center;
+}
+.filter-section .filter .right-side .produce .produces .card .card-top img{
+    width: 100%;
+}
+.filter-section .filter .right-side .produce .produces .card .card-top{
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.filter-section .filter .right-side .produce .produces .card .card-price{
+    color: #76aa6f;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.filter-section .filter .right-side .produce .produces .icons .icon{
+    font-size: 38px;
+  margin-left: 12px;
+  color: #fff;
+  background-color: #76aa6f;
+  padding: 7px;
+  /* color: #555; */
+  border-radius: 40%;
+  transition: all 0.4s ease;
+}
+.filter-section .filter .right-side .produce .produces .icons .icon:hover{
+    background-color: #76aa6f;
+}
+.filter-section .filter .right-side .produce .produces .icons .orange{
+    background-color: #e9da5d;
+    color: #444;
+}
+.filter-section .filter .right-side .produce .produces .icons .green:hover{
+    background-color: #e9da5d;
+}
+.filter-section .filter .right-side .produce .produces .icons{
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    max-height: 150px;
+    transition: all 0.6s ease;
+}
+.filter-section .filter .right-side .produce .produces .card:hover .icons{
+    visibility: visible;
+    opacity: 1;
+    
+}
+@media(max-width:1200px){
+    .filter-section .filter .left-side{
+        width: 280px;
+    }
+    .filter-section .filter .right-side {
+        width: 730px;
+    }
+}
+
+@media(max-width:991px){
+    .filter-section .filter{
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}

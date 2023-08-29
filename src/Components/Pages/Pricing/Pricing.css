@@ -1,0 +1,31 @@
+.produce-section{
+    padding-top: 110px;
+    background:  none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.products-section  .produce-section{
+   padding-top: 80px;
+}
+.produce-section .products-section .row .card{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #e1e1e1;
+}
+.produce-section .products-section .row .card img{
+    width: 250px;
+    cursor: pointer;
+}
+.card .card-body p{
+    display: block;
+    margin: 0 auto;
+    color: #76aa6f;
+}
